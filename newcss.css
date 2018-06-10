@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 juin 2018, 11:18:56
+    Author     : Félix
+*/
+@font-face{
+ font-family: monfont;
+ src:url(digital.ttf)
+    
+}
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/448407938697134080/454672055409967114/john3.jpg)
+}
+.bloc{
+height: 3px;    
+width: 100px;
+text-align: center;
+padding: 12px;
+background-color: #fff;
+border: 2px solid black;
+font-family: sans-serif;
+padding-bottom: 50px; 
+   -moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+.info{
+    font-family: monfont;
+    font-size: 140px;
+}
+
+.content{
+    border-color: black;
+}
+
+h1{
+   color: #ffffff; 
+}
+h2{
+    color: #ffffff;
+}
+h4{
+   color: #ffffff;  
+}
+.btn{
+    color: black;
+}
+
+#text{
+    border: solid black 2px;
+    height: 90px;    
+width: 500px;
+position: absolute;
+left:510px;
+bottom: 25px;
+background-color: #fff;
+}
+
